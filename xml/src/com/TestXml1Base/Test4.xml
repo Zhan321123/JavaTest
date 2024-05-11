@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<nba xmlns="http://www.w3school.com.cn"
+     xmlns:xsi="http://www.s3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.w3school.com.cn Test4.xsd">
+
+    <star>
+        <name>lucy</name>
+        <age>18</age>
+    </star>
+</nba>

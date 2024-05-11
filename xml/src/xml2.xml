@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+元素K的属性
+用法:
+<元素 属性="" 属性=""...>
+-->
+<students>
+
+    <student1 type="yellow" from="china">
+        <name>zhan</name>
+        <id>20027</id>
+        <sex>male</sex>
+    </student1>
+
+    <student2 type="black" from="japan">
+        <name>wei</name>
+        <id>10086</id>
+        <sex>female</sex>
+    </student2>
+
+</students>

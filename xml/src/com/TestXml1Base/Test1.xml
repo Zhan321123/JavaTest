@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+xml文件的测试
+xml文件基本格式为 <元素> 值 </元素> ，类似于json
+xml的注释格式为 <！—-  注释  -—>
+-->
+<Class>
+
+    <!--学生-->
+    <Students>
+        <Student1>
+            <Name>com</Name>
+            <Id>2022</Id>
+        </Student1>
+        <Student2>
+            <Name>wei</Name>
+            <Id>2022</Id>
+        </Student2>
+        <Student3>
+            <Name>lin</Name>
+            <Id>2022</Id>
+        </Student3>
+        <Student4>
+            <Name>jin</Name>
+            <Id>2022</Id>
+        </Student4>
+<!--        <Student5>
+            <Name>yao</Name>
+            <Id>2022</Id>
+        </Student5>-->
+    </Students>
+
+    <!--教室的黑板-->
+    <blackboard>
+        <Color>black</Color>
+        <Width>100</Width>
+        <Height>40</Height>
+    </blackboard>
+
+</Class>

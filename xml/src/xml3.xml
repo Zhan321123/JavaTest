@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <id>315</id>
+    <location>boXue</location>
+
+    <students>
+        <student type="monitor">
+            <name>liu</name>
+            <id>1001</id>
+            <age>17</age>
+        </student>
+        <student>
+            <name>zhan</name>
+            <id>1002</id>
+            <age>28</age>
+        </student>
+        <student>
+            <name>wei</name>
+            <id>1003</id>
+            <age>39</age>
+        </student>
+    </students>
+
+    <techers>
+        <techer>
+            <name>zhang</name>
+            <subject>Chinese</subject>
+        </techer>
+    </techers>
+
+</class>

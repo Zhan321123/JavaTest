@@ -1,0 +1,3 @@
+2023-11-14 21:41:44 org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) BaseJdbcLogger.java DEBUG ==>  Preparing: select * from money where money = ? 
+2023-11-14 21:41:44 org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) BaseJdbcLogger.java DEBUG ==> Parameters: 1000(Integer)
+2023-11-14 21:41:44 org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) BaseJdbcLogger.java DEBUG <==      Total: 1

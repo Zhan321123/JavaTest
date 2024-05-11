@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+利用规范文件dtd类型来规范xml文件
+用法：
+<!DOCTYPE students SYSTEM "规范文件名.dtd">
+-->
+<!DOCTYPE students SYSTEM "D:\code\Project\Test\xml\src\com\TestXml1Base\Test3.dtd">
+<students>
+    <student>
+        <name>张三</name>
+        <age>188</age>
+    </student>
+    <student>
+        <name>李四</name>
+        <age>500</age>
+    </student>
+</students>

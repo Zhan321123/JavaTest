@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+
+    <student>
+        <id>1001</id>
+        <name>lin</name>
+    </student>
+
+    <student>
+        <id>1004</id>
+        <name>wei</name>
+    </student>
+
+    <student>
+        <id>2022</id>
+        <name>com</name>
+    </student>
+
+</students>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--指定命名空间-->
+<mapper namespace="com.mapper.UserMapper">
+<!--    每一个sql语句都是一种方法，有名字id，有输出resultType，里面包含着sql语句-->
+<!--    resultType="com.entity.类"-->
+    <select id="selectAll" resultType="com.entity.User">
+        select * from money
+    </select>
+
+    <select id="select1" resultType="com.entity.User">
+        <!--    占位符的表示方法#{表示名}，只有一个占位符时，表示名随便-->
+        select * from money where name = #{name}
+    </select>
+
+    <select id="select2" resultType="com.entity.User">
+        <!--    多个占位符时，名字要相对应，如果类里没有getter方法时，会找同名属性-->
+        select * from money where money = #{money} and name = #{name}
+    </select>
+
+<!--    parameterType="输入值的类型" -->
+    <select id="select3" resultType="com.entity.User" parameterType="int">
+        select * from money where money = #{money}
+    </select>
+
+    <insert id="insert1">
+        insert into money values(#{name},#{account},#{password},#{money})
+    </insert>
+
+    <update id="update1" >
+        update money set name = #{name}, password = #{password} where account = #{account}
+    </update>
+
+    <delete id="delete1" >
+        delete from money where name = #{name}
+    </delete>
+</mapper>
